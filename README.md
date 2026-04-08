@@ -1,4 +1,3 @@
-# CLL798
 # SOC Earthquake Sandpile Project
 
 ## Self-Organized Criticality in Earthquake Fault Networks
@@ -30,3 +29,7 @@ python3 src/analyze.py .
 │   └── report.pdf        # Compiled PDF
 ├── README.md
 ```
+
+### Acknowledgments
+
+Developed with assistance from Claude (Anthropic).
