@@ -30,6 +30,5 @@ python3 src/analyze.py .
 ├── README.md
 ```
 
-### Acknowledgments
-
-Developed with assistance from Claude (Anthropic).
+### Alternate Way to Run Code  
+Or you can run C++14 file directly incase your computer does not supports C++17 format to get excel files of results.
