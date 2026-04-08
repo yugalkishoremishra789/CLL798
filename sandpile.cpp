@@ -1,18 +1,4 @@
-/**
- * sandpile.cpp
- * Bak-Tang-Wiesenfeld Sandpile Model Applied to Earthquake Fault Dynamics
- * 
- * This program simulates self-organized criticality (SOC) on a 2D lattice
- * representing an earthquake fault network. Each site accumulates "stress"
- * (sand grains). When stress exceeds a threshold, an avalanche (earthquake)
- * occurs, redistributing stress to neighbors.
- *
- * Outputs:
- *   avalanche_sizes.csv   - size of each avalanche
- *   avalanche_durations.csv - duration of each avalanche
- *   grid_snapshots.csv    - periodic grid state snapshots
- *   connectivity_stats.csv - avalanche size vs connectivity metrics
- */
+
 
 #include <iostream>
 #include <fstream>
@@ -26,7 +12,7 @@
 #include <algorithm>
 #include <map>
 
-// --- Configuration ---
+
 struct Config {
     int L = 64;                    // Lattice size (L x L)
     int threshold = 4;             // Critical threshold z_c
